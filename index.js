@@ -6,10 +6,10 @@ function writeCards(names, event) {
   return cards
 }
 
-function wrapGifts(gifts) {
+function countDown(int) {
   let i = 0;
-  while (i < gifts.length) {
-    console.log(`Wrapped ${gifts[i]} and added a bow!`);
+  while (i > int) {
+    console.log(`${int}`);
     i++;
   }
   return gifts;
